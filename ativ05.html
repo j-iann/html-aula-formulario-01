@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>atividade 5 - formulários</title>
+</head>
+<body>
+<form action="/ativ05.html">
+
+<fieldset>
+<legend>Formulário</legend>
+<label for="nome">Nome completo:</label> <br>
+<input type="text" id="nome" name="nome" maxlength="100"> <br> <br>
+<label for="data">Data de nascimento:</label> <br>
+<input type="date" id="data" name="data"> <br> <br>
+
+<div>
+<p style="float:left">
+<label for="estado">Selecione o estado em que mora:</label>
+<select name="estado" id="estado">
+<optgroup label="Estados">
+<option value="ac">AC</option>
+<option value="al">AL</option>
+<option value="ac">AP</option>
+<option value="ac">AM</option>
+<option value="ba">BA</option>
+<option value="ce">CE</option>
+<option value="df">DF</option>
+<option value="es">ES</option>
+<option value="go">GO</option>
+<option value="ma">MA</option>
+<option value="mt">MT</option>
+<option value="mg">MG</option>
+<option value="ms">MS</option>
+<option value="pa">PA</option>
+<option value="pb">PB</option>
+<option value="pe">PE</option>
+<option value="pi">PI</option>
+<option value="pr">PR</option>
+<option value="rj">RJ</option>
+<option value="rn">RN</option>
+<option value="rs">RS</option>
+<option value="ro">RO</option>
+<option value="rr">RR</option>
+<option value="sc">SC</option>
+<option value="sp">SP</option>
+<option value="se">SE</option>
+<option value="to">TO</option>
+</select>
+</p>
+</div>
+
+<div>
+<p style="float:right">
+<label for="genero">Gênero:</label>
+<input type="radio" id="feminino" name="genero" value="feminino">
+<label for="feminino">Feminino</label> <br>
+<input type="radio" id="masuclino" name="genero" value="masculino">
+<label for="masculino">Masculino</label> <br>
+<input type="radio" id="outro" name="genero" value="outro">
+<label for="outro">Outro</label> <br>
+</p>
+</div>
+<br> <br> <br>
+<label for="conta">5 + 4 é?</label>
+<input type="number" id="conta" name="conta"> <br> <br> <br> <br>
+<p style="float:right">
+<input type="submit" id="salvar" name="salvar" value="Salvar">
+</p>
+
+</body>
+</html>
